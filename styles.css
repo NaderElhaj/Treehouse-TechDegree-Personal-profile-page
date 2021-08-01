@@ -31,6 +31,10 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+.main .portfolio{
+  width: 100px;
+  height: 100px;
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -70,11 +74,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(10deg);
 }
 .tag {
   background-color: #efefef;
